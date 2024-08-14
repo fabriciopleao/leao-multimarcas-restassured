@@ -1,0 +1,33 @@
+# Arquivos e diretórios do Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Diretórios de configuração do Eclipse
+.settings/
+.classpath
+.project
+
+# Diretórios e arquivos de build
+target/
+build/
+*.class
+
+# Arquivos de log
+*.log
+
+# Dependências do Maven
+.mvn/
+!**/src/main/**/resources/**
+
+# Diretórios do Gradle
+.gradle/
+build/
+
+# Arquivos gerados pelo sistema
+*.DS_Store
+Thumbs.db
